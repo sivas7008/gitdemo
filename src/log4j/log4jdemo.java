@@ -19,5 +19,10 @@ public class log4jdemo {
 		
 	}
 	
+	public void cal()
+	{
+		System.out.println("I am logging it for testing github");
+	}
+	
 
 }
