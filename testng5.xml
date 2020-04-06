@@ -1,0 +1,28 @@
+Listeners<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Department">
+
+
+  <test name="Functional_Test">
+ 
+  
+  <parameter name="a" value="35"/>
+<parameter name="b" value="10"/>
+    <classes>
+      <class name="TestNGDemoPack.TestNGdemo6"/>
+      
+      </classes>
+   
+       </test> <!-- Test -->
+       
+  <test name="second">
+ 
+  
+  <parameter name="a" value="75"/>
+<parameter name="b" value="10"/>
+    <classes>
+           <class name="TestNGDemoPack.TestNGdemo7"/>
+      </classes>
+   
+       </test> <!-- Test -->
+</suite> <!-- Suite -->

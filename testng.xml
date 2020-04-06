@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Department">
+
+
+  <test name="Functional_Test">
+ 
+  
+  
+    <classes>
+      <class name="TestNGDemoPack.TestNGdemo1"/>
+      
+      </classes>
+      </test>
+      <test name="Regression_Test">
+    <classes>
+      <class name="TestNGDemoPack.TestNGdemo2">
+      </class>
+    </classes>
+    </test>
+    <test name="Groups_Test">
+    
+    <groups>
+    <run>
+    <include name="Group B"/>
+    </run>
+    </groups>
+    
+    <classes>
+      <class name="TestNGDemoPack.TestNGdemo3">
+      </class>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

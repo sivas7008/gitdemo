@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test_Department]">
+  <listeners>
+    <listener class-name="TestNGDemoPack.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Functional_Test(failed)">
+    <classes>
+      <class name="TestNGDemoPack.TestNGdemo9">
+        <methods>
+          <include name="demo2"/>
+        </methods>
+      </class> <!-- TestNGDemoPack.TestNGdemo9 -->
+    </classes>
+  </test> <!-- Functional_Test(failed) -->
+</suite> <!-- Failed suite [Test_Department] -->

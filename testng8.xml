@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test_Department">
+
+<listeners>
+
+<listener file-name="Log4jDemo.log4jdemo1"/>
+</listeners>
+  <test name="Functional_Test">
+ 
+      <classes>
+      <class name="Log4jDemo.log4jdemo1"/>
+      
+      </classes>
+   
+       </test> <!-- Test -->
+</suite> <!-- Suite -->
