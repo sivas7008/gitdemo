@@ -15,4 +15,10 @@ public void m2()
 	System.out.println("How arsssse you");
 	}
 
+public void m3()
+
+{
+	System.out.println("How arsssse you");
+	}
+
 }
